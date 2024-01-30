@@ -27,11 +27,8 @@
         <field name="arch" type="xml">
             <form>
                 <header>
-                    <!-- Creamos un boton "archivar". 
-                    Al llamarse "archivar" se encarga de llamar al metodo "archivar"
-                    del modelo del que hereda "biblioteca_comic".
-                    Este metodo archivar cambie el estado del atributo del modelo "activo"
-                -->
+
+
                     <button type="object" name="archivar" string="Archivar Libros" />
                 </header>
                 <group>
@@ -47,11 +44,8 @@
                         <field name="precio" />
                         <field name="fecha_publicacion" />
                         <field name="dias_lanzamiento" />
-                        <!-- con widget="image" class="oe_avatar" preparamos el aspecto de como se verá este campo 
-                            NOTA: en este ejemplo, el modelo lo guarda como fichero (field.Binary) y así forzamos a que parezca una imagen
-                            pero a partir de Odoo 13, se puede usar field.Image, que entre otras ventajas
-                            incluye recorte de imagen subida
-                        -->
+
+
                         <field name="portada" widget="image" class="oe_avatar" />
                         <field name="valoracion_lector" />
                         <field name="ref_doc_id" />
