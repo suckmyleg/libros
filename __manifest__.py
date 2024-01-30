@@ -19,6 +19,8 @@
         'security/ir.model.access.csv',
         
         #Cargamos los ficheros con vistas tanto de biblioteca_comic como de biblioteca_comic_categoria
+        
+        'views/libro.xml',
         'views/biblioteca_comic.xml',
         'views/biblioteca_comic_categoria.xml'
     ],
