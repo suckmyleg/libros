@@ -14,7 +14,7 @@
     </record>
 
     <!-- Creamos la base del menu item -->
-    <menuitem name="Mi biblioteca (Avanzada)" id="biblioteca_base_menu" />
+    <menuitem name="Libros" id="biblioteca_base_menu" />
     <!-- Creamos un hijo de la base, que servira para ir a la vista de comics 
     En la otra vista, crearemos uno igual para ir a la vista de categorias
     -->
