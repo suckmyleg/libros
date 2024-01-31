@@ -8,7 +8,7 @@
                     """,  
 
     'application': True,
-    'author': "Autor",
+    'author': "Juan Ageitos Bonaldi",
     'website': "website",
     'category': 'Tools',
     'version': '0.1',
