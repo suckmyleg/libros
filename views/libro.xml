@@ -49,7 +49,6 @@
             <tree>
                 <field name="nombre" />
                 <field name="fecha_publicacion" />
-                <field name="categoria_id" />
             </tree>
         </field>
     </record>
