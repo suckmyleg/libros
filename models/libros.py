@@ -29,14 +29,11 @@ class Libro(models.Model):
 
     fecha_publicacion = fields.Date('Fecha publicación')
 
-    precio = fields.Float('Precio')
-
     paginas = fields.Integer('Numero de páginas',
         groups='base.group_user',
         estados={'perdido': [('readonly', True)]},
         help='Total numero de paginas',
         company_dependent=False)
-
 
     autor_ids = fields.Many2many('libro.autor')
 
